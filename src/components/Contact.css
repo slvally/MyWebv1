@@ -10,9 +10,9 @@
 }
 
 .email:hover {
-  background: #d44638;
+  background: #211f1f;
   color: white;
-  border: 1px solid #d44638;
+  border: 1px solid #211f1f;
 }
 
 .github:hover {
@@ -21,13 +21,19 @@
   border: 1px solid #211f1f;
 }
 .youtube:hover {
-  background: #ff0000;
+  background: #211f1f;
   color: white;
-  border: 1px solid #ff0000;
+  border: 1px solid #211f1f;
 }
 
 .twitter:hover {
-  background: #1da1f2;
+  background: #211f1f;
   color: white;
-  border: 1px solid #1da1f2;
+  border: 1px solid #211f1f;
+}
+
+.linkedin:hover {
+  background: #211f1f;
+  color: white;
+  border: 1px solid #211f1f;
 }

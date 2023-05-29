@@ -8,11 +8,11 @@ export function ChangeTitle() {
   const location = useLocation();
 
   if (location.hash === "#about") {
-    document.title = "Arpan Neupane - About";
+    document.title = "Slvally - About";
   } else if (location.pathname === "/projects") {
-    document.title = "Arpan Neupane - Projects";
+    document.title = "Slvally - Projects";
   } else if (location.pathname === "/contact") {
-    document.title = "Arpan Neupane - Contact";
+    document.title = "Slvally - Contact";
   } else {
     document.title = "Arpan Neupane";
   }
@@ -24,7 +24,7 @@ function Home() {
   const [copyright, setCopyright] = useState('')
 
   useEffect(() => {
-    const miliseconds = new Date() - new Date('11/03/2007')
+    const miliseconds = new Date() - new Date('10/28/2002')
     setAge(Math.floor(miliseconds / 1000 / 60 / 60 / 24 / 365))
 
     const year = new Date().getFullYear()
@@ -35,8 +35,8 @@ function Home() {
   const strings = [
     "software development.",
     "music.",
-    "content creation.",
-    "business.",
+    "anime.",
+    "game.",
   ];
 
   return (
@@ -48,7 +48,7 @@ function Home() {
               Hi! I am
             </p>
             <p className="lg:text-4xl md:text-3xl text-2xl font-bold tracking-wide">
-              ARPAN NEUPANE.
+              Muhammad Rafi Shidiq
             </p>
             <p className="lg:text-xl md:text-lg text-base mt-2 font-light">
               I'm a programmer with a passion for{" "}
@@ -70,32 +70,20 @@ function Home() {
               About Me
             </p>
             <p className="about-info md:text-lg text-base tracking-wider leading-relaxed">
-              Hello there! My name is Arpan Neupane and I am a {age}-year-old
-              programmer. I enjoy creating apps and websites that can express my creativity and to build meaningful products.{" "}
+            Hi there! My name is Rafi and I'm a {age}-year-old introverted Computer Science student at the University of Education Indonesia.
             </p>
             <br></br>
             <p className="about-info md:text-lg text-base tracking-wider leading-relaxed">
-              During my free time, I create content surrounding technology and
-              programming on{" "}
-              <a
-                href="https://youtube.com/c/ArpanNeupaneProductions"
-                target="__blank"
-              >
-                YouTube
-              </a>
-              . When I'm not programming or making content, you can find me playing the guitar, spending time with people, cooking, or reading. I'm also an author at{" "}
-              <a href="https://themorningnews.com/news/author/arpanneupane/" target="__blank">
-                TheMorningNews
-              </a>
-              .
+            I have a deep passion for technology and I always enjoy keeping up with the latest advancements. 
+            When I'm not coding, you can find me indulging in my love for video games, anime, and writing. I am also interested in exploring the worlds of Art and Design, and Philosophy.
             </p>
             <br></br>
             <p className="about-info md:text-lg text-base tracking-wider leading-relaxed">
               I'm always looking forward to learning new technologies and improving
               my work in any way possible. If you want to contact me regarding any of my products, any ideas, or just want to chat,
               you're welcome to email me at{" "}
-              <a href="mailto:arpanneupane19@gmail.com" target="__blank">
-                arpanneupane19@gmail.com
+              <a href="mailto:muhammadrafishidiq@upi.edu" target="__blank">
+              muhammadrafishidiq@upi.edu
               </a>
               .
             </p>
@@ -111,31 +99,34 @@ function Home() {
                 {/* PROFICIENT ROW */}
                 <div className="proficient-row flex flex-wrap mb-1">
                   <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
-                    <p className="text-base">Python</p>
-                  </div>
-                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
                     <p className="text-base">JavaScript</p>
                   </div>
                   <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">Flutter Dart</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">PHP</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">Java</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">Python</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">C/C++</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
                     <p className="text-base">HTML/CSS</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">R</p>
                   </div>
                 </div>
 
                 {/* INTERMEDIATE ROW */}
                 <div className="intermediate-row flex flex-wrap mb-1">
-                  <div className="p-1 intermediate rounded-lg m-1 flex items-center h-8">
-                    <p className="text-base">TypeScript</p>
-                  </div>
-                  <div className="p-1 intermediate rounded-lg m-1 flex items-center h-8">
-                    <p className="text-base">SQL</p>
-                  </div>
-                </div>
 
-                {/* BEGINNER ROW */}
-                <div className="beginner-row flex flex-wrap">
-                  <div className="p-1 beginner rounded-lg m-1 flex items-center h-8">
-                    <p className="text-base">Java</p>
-                  </div>
                 </div>
               </div>
 
@@ -157,18 +148,25 @@ function Home() {
                     <p className="text-base">Tailwind</p>
                   </div>
                   <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
-                    <p className="text-base">UIkit</p>
+                    <p className="text-base">Laravel</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">Code Igniter</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">Bootsrap</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">MUI</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">Express</p>
                   </div>
                 </div>
 
                 {/* INTERMEDIATE ROW */}
                 <div className="intermediate-row flex flex-wrap mb-1">
-                  <div className="p-1 intermediate rounded-lg m-1 flex items-center h-8">
-                    <p className="text-base">React Native</p>
-                  </div>
-                  <div className="p-1 intermediate rounded-lg m-1 flex items-center h-8">
-                    <p className="text-base">Chakra UI</p>
-                  </div>
+                  
                 </div>
 
                 {/* BEGINNER ROW */}
@@ -184,33 +182,34 @@ function Home() {
                   <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
                     <p className="text-base">Visual Studio Code</p>
                   </div>
-                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
-                    <p className="text-base">Git</p>
+                  <div className="p-1 proficient rounded-lg rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">Github</p>
                   </div>
                   <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
                     <p className="text-base">Canva</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">MongoDB</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">Figma</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">MySQL</p>
+                  </div>
+                  <div className="p-1 proficient rounded-lg m-1 flex items-center h-8">
+                    <p className="text-base">Firebase</p>
                   </div>
                 </div>
 
                 {/* INTERMEDIATE ROW */}
                 <div className="intermediate-row flex flex-wrap mb-1">
-                  <div className="p-1 intermediate rounded-lg m-1 flex items-center h-8">
-                    <p className="text-base">MongoDB</p>
-                  </div>
-                  <div className="p-1 intermediate rounded-lg m-1 flex items-center h-8">
-                    <p className="text-base">Figma</p>
-                  </div>
-
-                  <div className="p-1 intermediate rounded-lg m-1 flex items-center h-8">
-                    <p className="text-base">Autodesk Fusion 360</p>
-                  </div>
+                  
                 </div>
 
                 {/* BEGINNER ROW */}
                 <div className="beginner-row flex flex-wrap">
-                  <div className="p-1 beginner rounded-lg m-1 flex items-center h-8">
-                    <p className="text-base">Xcode</p>
-                  </div>
+
                 </div>
 
               </div>
@@ -219,8 +218,8 @@ function Home() {
         </div>
       </section>
       <div className="ending-msg font-light text-center absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center">
-        <p>Created with ❤️ by Arpan Neupane.</p>
-        <p>© {copyright} Arpan Neupane. All rights reserved.</p>
+        <p>Created with by Slvally with React and Tailwind.</p>
+        {/* <p>© {copyright} M Rafi S. All rights reserved.</p> */}
       </div>
     </div>
   );
