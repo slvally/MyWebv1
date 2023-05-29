@@ -14,7 +14,7 @@ export function ChangeTitle() {
   } else if (location.pathname === "/contact") {
     document.title = "Slvally - Contact";
   } else {
-    document.title = "Arpan Neupane";
+    document.title = "Slvally Shidiqs";
   }
 }
 
