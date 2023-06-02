@@ -70,7 +70,7 @@ function Home() {
               About Me
             </p>
             <p className="about-info md:text-lg text-base tracking-wider leading-relaxed">
-            Hi there! My name is Rafi and I'm a {age}-year-old introverted Computer Science student at the University of Education Indonesia.
+            My name is Rafi. I'm a {age}-year-old introverted Computer Science student at the University of Education Indonesia. I also studied at Bangkit Academy 2023 led by Google, GoTo, and Traveloka
             </p>
             <br></br>
             <p className="about-info md:text-lg text-base tracking-wider leading-relaxed">
