@@ -3,12 +3,16 @@ import "./Projects.css";
 import { ChangeTitle } from "./Home.js";
 import Bloggy from "./images/bloggy.png";
 import Chattr from "./images/chattr.png";
+import Cer0 from "./images/c0.png";
 import Cer1 from "./images/c1.png";
-import Cer2 from "./images/c3.png";
-import Cer3 from "./images/c4.png";
-import Cer4 from "./images/c5.png";
-import Cer5 from "./images/c6.png";
-import Cer6 from "./images/c7.png";
+import Cer2 from "./images/c2.png";
+import Cer3 from "./images/c3.png";
+import Cer4 from "./images/c4.png";
+import Cer5 from "./images/c5.png";
+import Cer6 from "./images/c6.png";
+import Cer7 from "./images/c7.png";
+import Cer8 from "./images/c8.png";
+import Cer9 from "./images/c9.png";
 import {
   BloggyModal,
   ChattrModal,
@@ -75,6 +79,16 @@ function Projects() {
             Certificate
           </p>
           <div className="grid md:grid-cols-2 grid-cols-1">
+
+          <div
+              className="project md:py-7 md:px-6 py-5 px-4 flex flex-col items-center mx-3 my-3"
+            >
+              <p className="text-xl text-center font-light mb-2">Google IT Support - Google Certified</p>
+              <img src={Cer0} alt="Bloggy" />
+              <div className="tools flex flex-wrap justify-evenly items-center mt-1.5">
+              </div>
+            </div>
+
             <div
               className="project md:py-7 md:px-6 py-5 px-4 flex flex-col items-center mx-3 my-3"
             >
@@ -83,11 +97,39 @@ function Projects() {
               <div className="tools flex flex-wrap justify-evenly items-center mt-1.5">
               </div>
             </div>
+
+            <div
+              className="project md:py-7 md:px-6 py-5 px-4 flex flex-col items-center mx-3 my-3"
+            >
+              <p className="text-xl text-center font-light mb-2">Operation Systems and You: Becoming a Power User</p>
+              <img src={Cer2} alt="Chattr" />
+              <div className="tools flex flex-wrap justify-evenly items-center mt-1.5">
+              </div>
+            </div>
+
             <div
               className="project md:py-7 md:px-6 py-5 px-4 flex flex-col items-center mx-3 my-3"
             >
               <p className="text-xl text-center font-light mb-2">The Bits and Bytes Computer Networking</p>
-              <img src={Cer2} alt="Chattr" />
+              <img src={Cer3} alt="Chattr" />
+              <div className="tools flex flex-wrap justify-evenly items-center mt-1.5">
+              </div>
+            </div>
+
+            <div
+              className="project md:py-7 md:px-6 py-5 px-4 flex flex-col items-center mx-3 my-3"
+            >
+              <p className="text-xl text-center font-light mb-2">IT Security: Defense against the digital dark arts</p>
+              <img src={Cer4} alt="Chattr" />
+              <div className="tools flex flex-wrap justify-evenly items-center mt-1.5">
+              </div>
+            </div>
+
+            <div
+              className="project md:py-7 md:px-6 py-5 px-4 flex flex-col items-center mx-3 my-3"
+            >
+              <p className="text-xl text-center font-light mb-2">Technical Support Fundamentals</p>
+              <img src={Cer5} alt="Chattr" />
               <div className="tools flex flex-wrap justify-evenly items-center mt-1.5">
               </div>
             </div>
@@ -96,15 +138,17 @@ function Projects() {
               className="project md:py-7 md:px-6 py-5 px-4 flex flex-col items-center mx-3 my-3"
             >
               <p className="text-xl text-center font-light mb-2">Belajar Dasar Pemrograman Web</p>
-              <img src={Cer3} alt="Chattr" />
+              <img src={Cer8} alt="Chattr" />
               <div className="tools flex flex-wrap justify-evenly items-center mt-1.5">
               </div>
             </div>
+
+
             <div
               className="project md:py-7 md:px-6 py-5 px-4 flex flex-col items-center mx-3 my-3"
             >
               <p className="text-xl text-center font-light mb-2">Belajar Dasar Pemrograman Javascript</p>
-              <img src={Cer4} alt="Chattr" />
+              <img src={Cer9} alt="Chattr" />
               <div className="tools flex flex-wrap justify-evenly items-center mt-1.5">
               </div>
             </div>
@@ -112,7 +156,7 @@ function Projects() {
               className="project md:py-7 md:px-6 py-5 px-4 flex flex-col items-center mx-3 my-3"
             >
               <p className="text-xl text-center font-light mb-2">Belajar Membuat Aplikasi Backend untuk Pemula</p>
-              <img src={Cer5} alt="Chattr" />
+              <img src={Cer6} alt="Chattr" />
               <div className="tools flex flex-wrap justify-evenly items-center mt-1.5">
               </div>
             </div>
@@ -120,12 +164,10 @@ function Projects() {
               className="project md:py-7 md:px-6 py-5 px-4 flex flex-col items-center mx-3 my-3"
             >
               <p className="text-xl text-center font-light mb-2">Menjadi Cloud Engineer</p>
-              <img src={Cer6} alt="Chattr" />
+              <img src={Cer7} alt="Chattr" />
               <div className="tools flex flex-wrap justify-evenly items-center mt-1.5">
               </div>
             </div>
-            
-            
           </div>
           
         </div>
