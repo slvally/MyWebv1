@@ -40,11 +40,11 @@ function Projects() {
         ></div>
       ) : null}
       <div className="">
-        <div className="flex flex-col justify-center items-center pt-36 pb-24 lg:px-16 px-6">
-          <p className="projects-header md:text-3xl text-2xl mb-4 font-medium">
+        {/* <div className="flex flex-col justify-center items-center pt-36 pb-24 lg:px-16 px-6"> */}
+          {/* <p className="projects-header md:text-3xl text-2xl mb-4 font-medium">
             Projects
           </p>
-          <div className="grid md:grid-cols-2 grid-cols-1">
+          <div className="grid md:grid-cols-2 grid-cols-1"> */}
             {/* <div
               className="project md:py-7 md:px-6 py-5 px-4 flex flex-col items-center mx-3 my-3"
               onClick={() => setShowBloggy(true)}
@@ -69,9 +69,9 @@ function Projects() {
                 </div>
               </div>
             </div> */}
-          </div>
+          {/* </div> */}
           
-        </div>
+        {/* </div> */}
 
 
         <div className="flex flex-col justify-center items-center pt-36 pb-24 lg:px-16 px-6">
